@@ -1,4 +1,4 @@
-ctrl=shell - interface between you and the operatinng system
+shell - interface between you and the operatinng system
 pwd (present working directory)
 ls . ll - (list files)
 cd ( change directory )
