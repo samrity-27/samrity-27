@@ -28,3 +28,7 @@ sudo = superuser(admin rights)
 apt = ubuntu package manager 
 `sudo_adduser_smriti`
 `su` - smriti
+##file permissions##
+chmod user,group,others + read4,write2,execute1`
+`./`
+`echo`
