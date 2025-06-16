@@ -37,9 +37,13 @@
 - `echo`
 # 16th june
 - commands
-  `type - t` check bash command type
+  `type -t` check bash command type
   - path location `echo $PATH`
   - Shebang is compulsory to run file
    - #!/bin/bash
     .sh means script
  -  `which` command path
+- | command | output of `type -t`|meaning
+  ----------|--------------------|-------
+  --------------------------------|
+  
