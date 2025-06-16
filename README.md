@@ -40,5 +40,5 @@
   `type - t` check bash command type
   - path location `echo $PATH`
   - Shebang is compulsory to run file
-    #!/bin/bash
+   - #!/bin/bash
     .sh means script
