@@ -45,6 +45,17 @@
  -  `which` command path
 - | command | output of `type -t`|meaning
   ----------|--------------------|-------
-  `cd`      |builtin             |
+  `cd`      |builtin             |shells internal command
+  `ls`      |alias               | external command
+  `pwd`     | builtin            | shells internal command
+  `which`   | file               | external command
+  `ll`      | alias              | external command
+  `echo`    | builtin            | shells internal command
+  `mv`      | file               | external command
+  `rm`      | file               |    "
+  `mkdir`   | builtin file       |internal command 
+  `cp`      | file               | external command
+  `cat`     | file               | "
+  `nano     | file               | "
   
   
