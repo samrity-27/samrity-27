@@ -42,4 +42,4 @@
   - Shebang is compulsory to run file
    - #!/bin/bash
     .sh means script
-     `which` command path
+ -  `which` command path
