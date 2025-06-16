@@ -45,5 +45,6 @@
  -  `which` command path
 - | command | output of `type -t`|meaning
   ----------|--------------------|-------
-  --------------------------------|
+  `cd`      |builtin             |
+  
   
