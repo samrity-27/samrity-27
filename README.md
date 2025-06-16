@@ -1,4 +1,5 @@
 # shell - interface between you and the operatinng system
+- Terminal basics
 `pwd` (present working directory)
 `ls` . `ll` - (list files)
 `cd` ( change directory )
