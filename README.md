@@ -57,5 +57,6 @@
   `cp`      | file               | external command
   `cat`     | file               | "
   `nano`     | file               | "
-  
-  
+  # pipes and sorting
+  `sort -n` (sorting)
+  `sort -nr (reverse sorting)
