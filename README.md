@@ -19,7 +19,7 @@
 - ctrl + d = stop standard command 
 - `ls - l` ( file date )
 - `ls - g` - l ( total)
-- `ls -hl` ( file size in kb mb )
+- `ls -hal` ( file size in kb mb )
 - `ls - tl`
 - `ls - a` for hidden files 
 - `ls -ltr` (1st to last)
