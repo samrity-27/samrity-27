@@ -56,6 +56,6 @@
   `mkdir`   | builtin file       |internal command 
   `cp`      | file               | external command
   `cat`     | file               | "
-  `nano     | file               | "
+  `nano`     | file               | "
   
   
