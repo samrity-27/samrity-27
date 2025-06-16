@@ -57,6 +57,12 @@
   `cp`      | file               | external command
   `cat`     | file               | "
   `nano`     | file               | "
-  # pipes and sorting
+  - # pipes and sorting
+  `wc` word count (it counts number of lines ,words and characters)
+ `wc *.pdb` (list)
+`l *.pbd`  (line list)
   `sort -n` (sorting)
   `sort -nr (reverse sorting)
+  `head` display first 10 lines
+  `tail` display last 10 lines
+  
