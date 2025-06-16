@@ -20,7 +20,8 @@
 - `ls - l` ( file date )
 - `ls - g` - l ( total)
 - `ls -hl` ( file size in kb mb )
-- `ls - tl` 
+- `ls - tl`
+- `ls - a` for hidden files 
 - `ls -ltr` (1st to last)
 - `ls - Sl 9` ASCENDING ORDER , ls - Srl Descending order 
 - `ls - R` ( all directories )                                                                
