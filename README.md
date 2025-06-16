@@ -32,5 +32,13 @@
 - `su` - smriti
 ## file permissions
 - chmod *user*,*group*,*others* + read4,write2,execute1`
-- `./`
+- `chmod u + rwx`
+- `./`current directory
 - `echo`
+# 16th june
+- commands
+  `type - t` check bash command type
+  - path location `echo $PATH`
+  - Shebang is compulsory to run file
+    #!/bin/bash
+    .sh means script
