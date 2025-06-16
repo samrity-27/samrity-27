@@ -23,12 +23,12 @@ ctrl + d = stop standard command
 `ls -ltr` (1st to last)
 `ls - Sl 9` ASCENDING ORDER , ls - Srl Descending order 
 `ls - R` ( all directories )                                                                
-##13th june
+## 13th june
 sudo = superuser(admin rights)
 apt = ubuntu package manager 
 `sudo_adduser_smriti`
 `su` - smriti
-##file permissions##
-chmod user,group,others + read4,write2,execute1`
+### file permissions
+chmod *user*,*group*,*others* + read4,write2,execute1`
 `./`
 `echo`
