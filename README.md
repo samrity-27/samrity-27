@@ -11,7 +11,7 @@
 - `mv` ( move)
 -ctrl + o = save 
 - ctrl + x = exit 
-- ctl + l ( new )
+- ctl + l ( to clear the terminal )
 - ctrl + alt+ t = to open terminal
 # shell script = more than one command exicute together 
 - `cal - M` , `cal - p` ( calender)
