@@ -62,7 +62,7 @@
  - `wc *.pdb` (list)
 - `l *.pbd`  (line list)
 - `sort -n` (sorting)
- - `sort -nr (reverse sorting)
+ - `sort -nr` (reverse sorting)
  - `head` display first 10 lines
  - `tail` display last 10 lines
   
