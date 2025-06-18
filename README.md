@@ -73,8 +73,9 @@
 -  -F, --fixed-strings  interpret PATTERNS as fixed strings, not regular expressions.
 -  -G, --basic-regexp Interpret PATTERNS as basic regular expressions 
 - P, --perl-regexp  interpret PATTERNS as Perl-compatible regular expressions (PCREs).  This option is experimental when combined with the -z (--null-data) option, and grep -P may warn of unimplemented features.
-  -- common useful grep options
+  ### common useful grep options
   | options | description |
+  ----------|-------------|
   | `grep -i` | Ignore case (Apple = apple) |
   | `grep -v`  | invert match (show lines that DO NOT match) |
   | `grep -n`  | Show line numbers |
