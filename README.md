@@ -68,7 +68,7 @@
 `egrep`= Extended grep
  `fgrep`= fixed grep
  `rgrep` = recursive grep 
-- V, --version Output the version number of grep and exit.
+- V, --version Output the version number of grep and exit. `grep -V`
 -  -E, --extended-regexp  interpret PATTERNS as extended regular expressions (ERE)
 -  -F, --fixed-strings  interpret PATTERNS as fixed strings, not regular expressions.
 -  -G, --basic-regexp Interpret PATTERNS as basic regular expressions 
