@@ -65,4 +65,10 @@
  - `sort -nr` (reverse sorting)
  - `head` display first 10 lines
  - `tail` display last 10 lines
-  
+  grep, egrep, fgrep, rgrep
+- V, --version Output the version number of grep and exit.
+-  -E, --extended-regexp  interpret PATTERNS as extended regular expressions (ERE)
+-  -F, --fixed-strings  interpret PATTERNS as fixed strings, not regular expressions.
+-  -G, --basic-regexp Interpret PATTERNS as basic regular expressions (BREs, see below).  This is the default.
+
+   P, --perl-regexp  interpret PATTERNS as Perl-compatible regular expressions (PCREs).  This option is experimental when combined with the -z (--null-data) option, and grep -P may warn of unimplemented features.
