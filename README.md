@@ -64,7 +64,7 @@
  - `sort -nr` (reverse sorting)
  - `head` display first 10 lines
  - `tail` display last 10 lines
-  `grep`= basic grep (used for pattern matching),
+ - `grep`= basic grep (used for pattern matching),
 `egrep`= Extended grep
  `fgrep`= fixed grep
  `rgrep` = recursive grep 
