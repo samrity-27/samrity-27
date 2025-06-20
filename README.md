@@ -1,4 +1,4 @@
-#unix bash (bourne again shell)
+#Unix Bash (Bourne Again Shell)
 - shell - interface between you and the operatinng system
 - Terminal basics
 - `pwd` (present working directory)
@@ -14,9 +14,9 @@
 - ctrl + x = exit 
 - ctl + l (to clear the terminal)
 - ctrl + alt+ t = to open terminal
-# shell script = more than one command exicute together 
+# Shell script = more than one command exicute together 
 - `cal - M` , `cal - p` (calender)
-# standard command ,cat + enter = keyboard 
+# Standard command ,cat + enter = keyboard 
 - ctrl + d = stop standard command 
 - `ls - l` (file date)
 - `ls - g` - l (total)
@@ -26,17 +26,17 @@
 - `ls -ltr` (1st to last)
 - `ls - Sl 9` ASCENDING ORDER , ls - Srl Descending order 
 - `ls - R` (all directories)                                                                
-## super user
+## Super user
 - sudo = superuser(admin rights)
 - apt = ubuntu package manager 
 - `sudo_adduser_smriti`
 - `su` - smriti
-## file permissions
+## File permissions
 - chmod *user*,*group*,*others* + read4,write2,execute1`
 - `chmod u + rwx`
 - `./`current directory
 - `echo`
-# commands
+# Commands
 - commands
   `type -t` check bash command type
   - path location `echo $PATH`
@@ -44,7 +44,7 @@
    - #!/bin/bash
     .sh means script
  -  `which` command path
-- | command | output of `type -t`|meaning
+- | Command | Output of `type -t`|Meaning
   ----------|--------------------|-------
   `cd`      |builtin             |shells internal command
   `ls`      |alias               | external command
@@ -58,7 +58,7 @@
   `cp`      | file               | external command
   `cat`     | file               | "
   `nano`     | file               | "
-  - # pipes and sorting
+  - # Pipes and Sorting
 -  pipe use  - grep "kiwi" fruits.txt | wc 
 - `wc` word count (it counts number of lines ,words and characters)
 - `sort -n` (sorting)
@@ -74,8 +74,8 @@
 -  -F, --fixed-strings  interpret PATTERNS as fixed strings, not regular expressions.
 -  -G, --basic-regexp Interpret PATTERNS as basic regular expressions 
 - P, --perl-regexp  interpret PATTERNS as Perl-compatible regular expressions (PCREs).  This option is experimental when combined with the -z (--null-data) option, and grep -P may warn of unimplemented features.
-  ### common useful grep options
-  | options | description |
+  ### Common useful grep options
+  | Options | Description |
   ----------|-------------|
   | `grep -i` | Ignore case (Apple = apple) |
   | `grep -v`  | invert match (show lines that DO NOT match) |
@@ -84,8 +84,8 @@
   | `grep -c` | count match |
   | `grep -l` | show filenames with matches |
   | `grep -o` | show only matches parts of line |
-  ## important symbols
-  | symbol | name  |
+  ## Important symbols
+  | Symbol | Name  |
   |--------|-------|
   ~        | tilde|
   ! |exclamation mark|
