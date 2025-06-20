@@ -86,6 +86,7 @@
   | `grep -o` | show only matches parts of line |
   ## important symbols
   | symbol | name  |
+  |--------|-------|
   ~        | tilde|
   ! |exclamation mark|
   @ |at sign |
