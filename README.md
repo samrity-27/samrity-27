@@ -1,4 +1,4 @@
-#Unix Bash (Bourne Again Shell)
+# Unix Bash (Bourne Again Shell)
 - shell - interface between you and the operatinng system
 - Terminal basics
 - `pwd` (present working directory)
