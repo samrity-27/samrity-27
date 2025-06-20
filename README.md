@@ -84,9 +84,15 @@
   | `grep -c` | count match |
   | `grep -l` | show filenames with matches |
   | `grep -o` | show only matches parts of line |
-  #important symbols
+  ## important symbols
   | symbol | name |
   ~        | tilde|
   ! |exclamation mark|
   @ |at sign |
+  $ | dollar sign |
+  ^ | caret |
+  * | asterisk |
+  : | colon |
+; | semi colon |
+
   
