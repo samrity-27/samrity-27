@@ -92,8 +92,8 @@
   @ |at sign |
   $ | dollar sign |
   ^ | caret       |
-  * | asterisk    |
-  : | colon       |
-  ; | semi colon  |
+ | * | asterisk    |
+  |: | colon       |
+  |; | semi colon  |
 
   
