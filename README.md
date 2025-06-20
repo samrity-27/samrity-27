@@ -1,4 +1,5 @@
-# shell - interface between you and the operatinng system
+#unix bash (bourne again shell)
+- shell - interface between you and the operatinng system
 - Terminal basics
 - `pwd` (present working directory)
 - `ls` . `ll` - (list files)
@@ -25,7 +26,7 @@
 - `ls -ltr` (1st to last)
 - `ls - Sl 9` ASCENDING ORDER , ls - Srl Descending order 
 - `ls - R` (all directories)                                                                
-## 13th june
+## super user
 - sudo = superuser(admin rights)
 - apt = ubuntu package manager 
 - `sudo_adduser_smriti`
@@ -35,7 +36,7 @@
 - `chmod u + rwx`
 - `./`current directory
 - `echo`
-# 16th june
+# commands
 - commands
   `type -t` check bash command type
   - path location `echo $PATH`
@@ -83,4 +84,10 @@
   | `grep -c` | count match |
   | `grep -l` | show filenames with matches |
   | `grep -o` | show only matches parts of line |
+  #important symbols
+  | symbol | name |
+  ---------|------|
+  ~        | tilde|
+  ! |exclamation mark|
+  @ |at sign |
   
