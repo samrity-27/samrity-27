@@ -84,7 +84,7 @@
   | `grep -c` | count match |
   | `grep -l` | show filenames with matches |
   | `grep -o` | show only matches parts of line |
-  ## Important symbols
+  ## Important Symbols
   | Symbol | Name  |
   |--------|-------|
   ~        | tilde|
