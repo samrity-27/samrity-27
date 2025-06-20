@@ -91,9 +91,9 @@
   ! |exclamation mark|
   @ |at sign |
   $ | dollar sign |
-  ^ | caret |
-  * | asterisk |
-  : | colon |
-; | semi colon |
+  ^ | caret       |
+  * | asterisk    |
+  : | colon       |
+  ; | semi colon  |
 
   
