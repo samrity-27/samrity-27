@@ -96,24 +96,59 @@
   :| colon       |
   ;| semi colon  |
 # How to install Ubuntu in Window 
-- Enable WSL (window subsystem for linux) 'wsl --install'
+- Enable WSL (window subsystem for linux) `wsl --install`
 - if wsl is already installed we can use ubuntu manually using 'wsl --install -d Ubuntu'
 - enable windows subsystem for Linux
 # Permission File 
- - 'chmod +x folder' (give run permission to file or directory) , r - to read file , w - to edit file , x - to run file 
+ - `chmod +x folder` (give run permission to file or directory) , r - to read file , w - to edit file , x - to run file 
 # Bash script example
 #!/bin/bash (shebang)
-echo "Hello Smriti"
+`echo "Hello Smriti"`
 # SRA (sequence reader archive)
 - SRA is a NCBI's (National Centre for Biotechnology information) repository where thay store raw sequencing data (mostly next generation sequencing data like illumina,PacBio)
   - # SRA Toolkit  is used to download SRA files and can convert these files into FASTQ format 
 - To download SRA toolkit use command 
-'sudo apt-get install sra-toolkit'
-or we can manually install it from NCBI site  , To check download use command  'vdb-dump --version'
+`sudo apt-get install sra-toolkit`
+or we can manually install it from NCBI site  , To check download use command  `vdb-dump --version`
 # Download SRA file 
-use command'prefetch SRR12345678'
+use command `prefetch SRR12345678`
 - convert SRA file into FASTQ 
-use command 'fastq-dump SRR12345678' For Paired End data
-- use 'fastq-dump --split-files SRR12345678' to check FASTQ file use 'head SRR12345678_1.fastq'
-# Download FASTQ Program 
-- use bash command 'sudo apt update' 'sudo apt install fastqc' 
+use command `fastq-dump SRR12345678` For Paired End data
+- use `fastq-dump --split-files SRR12345678` to check FASTQ file use `head SRR12345678_1.fastq`
+# Download FASTQC Program 
+- FastQC is a quality control tool used to check the quality of raw sequence data from high-throughput sequencing platforms (like Illumina).
+It reads FASTQ files and gives a report that helps you decide:
+Is your data good enough to use?
+Are there any problems or biases in the sequences?
+Do you need to trim or filter the data?
+- use bash command `sudo apt update` `sudo apt install fastqc`
+- `unizip fastqc o.1zip`
+- 'cd fastqc'
+- 'chmod +x fastqc'
+- Run the file `./`
+- command `explorer.exe .` used to open current linux folder into window 
+- # FASTQC FILE
+- When you run FastQC on a FASTQ file, it generates two important files for each input:
+- 1. filename_fastqc.html
+This is a visual report.
+You can open it in a browser.
+It shows graphs and summaries about the sequence quality, GC content, duplicates, overrepresented sequences, etc.
+- 2. filename_fastqc.zip
+This contains the raw data and graphs behind the HTML report.
+It includes a folder with a text file named fastqc_data.txt, which gives detailed scores and stats for each analysis module.
+# FASTP Program 
+- FASTP is a ultra-fast all in one FASTQ preprocessor tool which is used for the quality control and filtering mostly next generation sequences to clean and assess them
+- it perform many tasks like Adapter trimming , Quality filtering , Per base quality cutting , Length filtering , and Output reports
+- # FASTP Download Steps
+- conda must be installed 
+- use command `apt install fastp`
+- 'chmod +x fastp'
+# commands used to filter error from raw file
+- write script
+#!/usr/bin/bash
+- write path /user/bin/fastp
+-  `fastp -i R1 12345_ -o SSR..clean_.fastq  I R2 12344_ O SSR..Clean _.fastq`
+-  'which' command is used to know the file path
+-  command to remove more than 1 file altogether use common name and last name
+-  'rm*_clean_*_fastq.zip'
+-  to run file = `./fastp.sh`
