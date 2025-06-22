@@ -95,5 +95,25 @@
    *| asterisk    |
   :| colon       |
   ;| semi colon  |
-
-  
+# How to install Ubuntu in Window 
+- Enable WSL (window subsystem for linux) 'wsl --install'
+- if wsl is already installed we can use ubuntu manually using 'wsl --install -d Ubuntu'
+- enable windows subsystem for Linux
+# Permission File 
+ - 'chmod +x folder' (give run permission to file or directory) , r - to read file , w - to edit file , x - to run file 
+# Bash script example
+#!/bin/bash (shebang)
+echo "Hello Smriti"
+# SRA (sequence reader archive)
+- SRA is a NCBI's (National Centre for Biotechnology information) repository where thay store raw sequencing data (mostly next generation sequencing data like illumina,PacBio)
+  - # SRA Toolkit  is used to download SRA files and can convert these files into FASTQ format 
+- To download SRA toolkit use command 
+'sudo apt-get install sra-toolkit'
+or we can manually install it from NCBI site  , To check download use command  'vdb-dump --version'
+# Download SRA file 
+use command'prefetch SRR12345678'
+- convert SRA file into FASTQ 
+use command 'fastq-dump SRR12345678' For Paired End data
+- use 'fastq-dump --split-files SRR12345678' to check FASTQ file use 'head SRR12345678_1.fastq'
+# Download FASTQ Program 
+- use bash command 'sudo apt update' 'sudo apt install fastqc' 
