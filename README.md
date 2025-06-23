@@ -150,5 +150,5 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
 -  `fastp -i R1 12345_ -o SSR..clean_.fastq  I R2 12344_ O SSR..Clean _.fastq`
 -  'which' command is used to know the file path
 -  command to remove more than 1 file altogether use common name and last name
--  'rm*_clean_*_fastq.zip'
+-  `rm*_clean_*_fastq.zip`
 -  to run file = `./fastp.sh`
