@@ -161,17 +161,17 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
  # Counts k-mers from FASTQ File
 - 1 `jellyfish count -C -m 21 -s 100m -t 8 -o mer_counts.jf Filename.Fastq`
 - 2 create k-mer frequency Histogram `jellyfish histo -t8 mer_counts,jf>mer_counts.histo`
-- | Words | Meaning |
-- |--------|---------|
-- | C       | count k-mers|
-- | m     | size of k-mers|
-- | s  | Hash size |
-- | t8 | threads(pc based) |
-- | o | output file|
-- | clean FASTQ | clean file
-- | Histo | convert binary .jf into Histogram |
-- | t8 | number of threads |
-- |  mer_count_hist | Redirect output into a file |  
+ | Words | Meaning |
+ | ------ | -------|
+ | C      | count k-mers |
+ | m      | size of k-mers |
+ | s      | Hash size |
+ | t8     | threads(pc based) |
+ | o      | output file|
+ | clean FASTQ | clean file
+ | Histo  | convert binary .jf into Histogram |
+ | t8     | number of threads |
+ |  mer_count_hist | Redirect output into a file |  
   # Generate Histogram File using k-mer counts
   - `jellyfish histo -t 8 mer_counts1.jf >mer_counts.histo`
 # Genomescope   Tool
