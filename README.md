@@ -133,7 +133,7 @@ Do you need to trim or filter the data?
 This is a visual report.
 You can open it in a browser.
 It shows graphs and summaries about the sequence quality, GC content, duplicates, overrepresented sequences, etc.
-- 2. filename_fastqc.zip
+- 2. filename_fastqc.zip `unizip fastqc o.1zip`
 This contains the raw data and graphs behind the HTML report.
 It includes a folder with a text file named fastqc_data.txt, which gives detailed scores and stats for each analysis module.
 # FASTP Program 
