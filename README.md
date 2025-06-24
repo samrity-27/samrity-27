@@ -143,7 +143,7 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
 - conda must be installed 
 - use command `apt install fastp`
 - 'chmod +x fastp'
-# commands used to filter error from raw file
+#  Commands used to filter error from raw file
 - write script
 #!/usr/bin/bash
 - write path /user/bin/fastp
@@ -152,3 +152,29 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
 -  command to remove more than 1 file altogether use common name and last name
 -  `rm*_clean_*_fastq.zip`
 -  to run file = `./fastp.sh`
+# K-mer counting using jellyfish tool
+- jellyfish is a k-mer counter , jellyfish takes all reads (clean reads),breaks them into k-mers,and counts how many times each k-mer occurs.
+- generates a histogram (frequency vs. number of k-mers)
+- this histogram is then used by genomescope 
+- 1 k-mers : short DNA sequence of length , k = number of nucleotide (A,T,G,C) , mer = parts
+- commands to install jelly fish `sudo apt update` then `sudo apt install jellyfish` to check install `jellyfishh --version`
+ # Counts k-mers from FASTQ File
+- 1 `jellyfish count -C -m 21 -s 100m -t 8 -o mer_counts.jf Filename.Fastq`
+- 2 create k-mer frequency Histogram `jellyfish histo -t8 mer_counts,jf>mer_counts.histo`
+- | Words | Meaning |
+- |--------|---------|
+- | C       | count k-mers|
+- | m     | size of k-mers|
+- | s  | Hash size |
+- | t8 | threads(pc based) |
+- | o | output file|
+- | clean FASTQ | clean file
+- | Histo | convert binary .jf into Histogram |
+- | t8 | number of threads |
+- |  mer_count_hist | Redirect output into a file |  
+  # Generate Histogram File using k-mer counts
+  - `jellyfish histo -t 8 mer_counts1.jf >mer_counts.histo`
+# Genomescope   Tool
+- input = The k-mer Histogram from jellyfish
+- also specify = k-mer size , Read type , Genome ploidy 
+    
