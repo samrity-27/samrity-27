@@ -161,8 +161,8 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
  # Counts k-mers from FASTQ File
 - 1 `jellyfish count -C -m 21 -s 100m -t 8 -o mer_counts.jf Filename.Fastq`
 - 2 create k-mer frequency Histogram `jellyfish histo -t8 mer_counts,jf>mer_counts.histo`
- | Words | Meanin
-  ------|---------|
+ | Words | Meaning |
+-- ------|---------|---
  | C | count k-mers |
  | m | size of k-mers |
  | s | Hash size |
