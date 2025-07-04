@@ -152,7 +152,7 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
 -  command to remove more than 1 file altogether use common name and last name
 -  `rm*_clean_*_fastq.zip`
 -  to run file = `./fastp.sh`
-# K-mer counting using jellyfish tool
+# K-mer counting using jellyfish `tooljellyfish count -m 21 -s 100M -t 4 -C SRR23515035_clean_1.fastq -o SRR2351035_output.jf`
 - jellyfish is a k-mer counter , jellyfish takes all reads (clean reads),breaks them into k-mers,and counts how many times each k-mer occurs.
 - generates a histogram (frequency vs. number of k-mers)
 - this histogram is then used by genomescope 
@@ -184,4 +184,9 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
   - main components velveth - create the hash table and reads input files (FASTQ/FASTA)  , velvetg - build and simplifies the de brujin graph to assemble the genome
 
 # SLURM   
+- SLURM stands for:
+Simple Linux Utility for Resource Management.
+
+- It is an open-source workload manager (also called a job scheduler) used on supercomputers or high-performance computing (HPC) clusters to run and manage jobs (scripts/programs).
+
     
