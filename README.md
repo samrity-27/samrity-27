@@ -160,7 +160,7 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
 - commands to install jelly fish `sudo apt update` then `sudo apt install jellyfish` to check install `jellyfishh --version`
  # Counts k-mers from FASTQ File
 - 1 `jellyfish count -C -m 21 -s 100m -t 8 -o mer_counts.jf Filename.Fastq`
-- 2 create k-mer frequency Histogram `jellyfish histo -t 8 mer_counts.jf > mer_counts.histo`
+- 2 create k-mer frequency Histogram `jellyfish histo -t 8 SRR23515036_output.jf > SRR23515036_histogram2.txt`
 - 
  | Words          | Meaning                           |
  |----------------|-----------------------------------|
