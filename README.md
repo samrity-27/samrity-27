@@ -181,5 +181,7 @@ It includes a folder with a text file named fastqc_data.txt, which gives detaile
 - also specify = k-mer size , Read type , Genome ploidy
   # Velvet
   - velvet is a de novo (assemble genome without any refrence) short read assembler . it efficiently assemble large volumes of short DNA sequence reads into longer contiguous sequences (called contigs) using de Bruijn graph algorithm. Use command `sudo apt-get install velvet`
-  - main components velveth - create the hash table and reads input files (FASTQ/FASTA)  , velvetg - build and simplifies the de brujin graph to assemble the genome  
+  - main components velveth - create the hash table and reads input files (FASTQ/FASTA)  , velvetg - build and simplifies the de brujin graph to assemble the genome
+
+# SLURM   
     
