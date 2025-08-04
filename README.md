@@ -192,3 +192,5 @@ Simple Linux Utility for Resource Management.
 - unicycler is a genome assembly tool. it takes raw sequencing reads and built the entire genome of an organism by assembling short reads into contigs, polishing the initial assembly.
 - basic command `/nfs7/ROOTS/Sathuvalli_Lab/Hemant_7/Hemant_S/Unicycler/unicycler-runner.py -1(unicycler path) /nfs7/ROOTS/Sathuvalli_Lab/Hemant_7/Hemant_S/SRR23515035_trimmed_1.fastq (R1 path)-2 /nfs7/ROOTS/Sathuvalli_Lab/Hemant_7/Hemant_S/SRR23515035_trimmed_2.fastq(R2path) --out /nfs7/ROOTS/Sathuvalli_Lab/Hemant_7/Hemant_S/assembly/output_uni(output dirc)` output will be assembled genome in FASTA formet.
 - 
+
+# fasta reads count `grep ">" |wc -l s.fasta` 
